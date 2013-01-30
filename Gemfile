@@ -31,6 +31,11 @@ gem 'jquery-rails', '2.0.2'
 group :test do
   gem 'capybara', '1.1.2'
 
+  gem 'guard-spork', '1.2.0'
+  gem 'spork', '0.9.2'
+
+  gem 'factory_girl_rails', '4.1.0'
+
   # These are for Windows
   # gem 'rb-fchange', '0.0.5'
   # gem 'rb-notifu', '0.0.4'
@@ -41,8 +46,6 @@ group :test do
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
 
-  gem 'guard-spork', '1.2.0'
-  gem 'spork', '0.9.2'
 end
 
 group :production do
