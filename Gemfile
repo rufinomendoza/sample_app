@@ -36,15 +36,19 @@ group :test do
 
   gem 'factory_girl_rails', '4.1.0'
 
+  gem 'cucumber-rails', '1.2.1', :require => false
+  gem 'database_cleaner', '0.7.0'
+
   # These are for Windows
-  gem 'rb-fchange', '0.0.5'
-  gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.0'
-  gem 'wdm', '~> 0.0.3'
+  # gem 'rb-fchange', '0.0.5'
+  # gem 'rb-notifu', '0.0.4'
+  # gem 'win32console', '1.3.0'
+  # gem 'wdm', '~> 0.0.3'
 
   # These are for Mac OS X
-  # gem 'rb-fsevent', '0.9.1', :require => false
-  # gem 'growl', '1.0.3'
+  gem 'rb-fsevent', '0.9.1', :require => false
+  gem 'growl', '1.0.3'
+
 
 end
 
